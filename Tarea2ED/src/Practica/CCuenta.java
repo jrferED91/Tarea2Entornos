@@ -30,9 +30,32 @@ public class CCuenta {
         saldo=sal;
 
     }
+    
+    
+    
+    
+
+    public String getCuenta() {
+		return cuenta;
+	}
 
 
-    public void asignarNombre(String nom)
+	public void setCuenta(String cuenta) {
+		this.cuenta = cuenta;
+	}
+
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+
+	public void asignarNombre(String nom)
 
     {
 
